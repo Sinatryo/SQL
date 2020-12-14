@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9198FD18-D616-12FA-C4DB-B6F88E095C45" name="LAB_STAFF">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>1BB8F4D2-5039-FBB3-2BE0-CA89DCFFEF12</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<ordsAlias>laboratory_staff</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ls_id" id="157737D1-67E1-C9D6-106D-74A2432F70DC">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>023AA91D-2501-92C6-A9F0-6875118B559F</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lsf_name" id="674B0015-E2E9-3944-2AD8-1F7AF5430318">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>D58F4A57-9308-73E6-F912-C65A65B68FD2</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lsl_name" id="3C8C922A-A613-6B3B-6FB9-FA32DB4B8433">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>D07EE728-B22E-F472-5041-8D2E809CC637</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ls_gender" id="6B4D061B-5F6D-0325-E546-D07A4C546AC8">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>576CD861-FF9F-8289-1847-C24F8E5A95BA</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ls_phone" id="AC2F8909-14DF-5A8B-4BD8-F3592AA0495B">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>AEBD9DE5-71AB-896E-BC1A-0BF63DD38255</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11E74DDE-4FEF-00BA-8A5A-F1D6281A4AAD" name="LABORATORY_STAFF_PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>CAF951A3-3A9D-0423-B674-3F93CCA4416F</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="157737D1-67E1-C9D6-106D-74A2432F70DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

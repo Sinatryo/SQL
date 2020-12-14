@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3D3F371-458B-00E0-33E6-2546DC951713" name="CREDIT">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>72603637-B119-D745-5748-AB15CAC30ADB</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pay_id" id="D6E6EABE-B958-5D71-EBD3-02A35296F265">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>8CEB5511-47EB-47D1-88EB-3B0C1193C229</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C849FC27-4040-51E9-799B-CDDA0FD7D6D2" referredColumn="2949131F-1CA5-421F-9BDC-237A2174D822"/>
+</associations>
+</Column>
+<Column name="cr_id" id="140B7445-5DD4-487F-E5B4-D437259A4337">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>B9D54818-FCB8-ACC6-6ECE-6F94156BE15E</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_cr" id="9D6BE9EA-2BCC-7BB5-ED30-C37DEB47F8BF">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>1BC4D0D2-D758-C705-7454-B0A0A7C8059B</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B39608F6-55DC-9976-4E62-7D7B0345FEFF" name="CREDIT_PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>898C7B17-57ED-0E1F-BAB5-C9F4780E7E02</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6E6EABE-B958-5D71-EBD3-02A35296F265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="334EE06E-B118-B9BE-4C1D-D92ACA53DB89" name="CREDIT_PKv1">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>92B87FFE-E4B0-B57E-B235-B3F9DF68EAE4</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="140B7445-5DD4-487F-E5B4-D437259A4337"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85B8552F-6F73-27C8-64E3-6AF9D161569B" name="CREDIT_PAYMENT_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>09781D75-36A5-334E-B8E6-8A6FA3B934B9</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6E6EABE-B958-5D71-EBD3-02A35296F265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

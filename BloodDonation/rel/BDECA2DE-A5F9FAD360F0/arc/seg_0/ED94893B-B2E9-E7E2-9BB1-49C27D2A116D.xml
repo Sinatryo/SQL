@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="ED94893B-B2E9-E7E2-9BB1-49C27D2A116D" name="FKArc_1">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>BE7D8ED7-A5F3-3CE2-A019-F60965595E0A</table>
+<discriminatorColumn>2949131F-1CA5-421F-9BDC-237A2174D822</discriminatorColumn>
+<fkeys>
+<fkeyID>B924B7F1-4CF8-0CBA-8AB5-2BDCCF3D4CC9</fkeyID>
+<fkeyID>C849FC27-4040-51E9-799B-CDDA0FD7D6D2</fkeyID>
+</fkeys>
+</FKArc>

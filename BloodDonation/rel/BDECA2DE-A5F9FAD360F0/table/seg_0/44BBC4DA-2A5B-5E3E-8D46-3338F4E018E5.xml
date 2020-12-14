@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44BBC4DA-2A5B-5E3E-8D46-3338F4E018E5" name="BLOOD">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>75329AB8-E89C-0746-1E72-E2E876C1A43C</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="b_id" id="5BA2DA59-5131-8936-1807-2931C7FCAEE7">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>482E1140-0340-06BF-EEC6-A30C16EF3E6F</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="b_type" id="08CDBAF2-2AFD-C813-7375-0DC7A0E2185C">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>B990D9E0-7B52-5A66-7955-C452D1763E08</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="b_status" id="F623E238-E6C9-8FBB-6293-99EE250F5931">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>4F97B33D-E68A-9D96-C318-6C183AB7EF9D</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BLOOD_MAN_bm_id" id="BC086E0B-65A0-6B1F-8F23-ED8C8D277B78">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:53:55 UTC</createdTime>
+<generatorID>9633E0B0-B3D3-C488-72A5-784417E9CA0A</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79BD5AC3-543D-6C6D-707A-650BB6C8E463" referredColumn="A5E4368B-054D-1262-58A0-D98E4CDB2219"/>
+</associations>
+</Column>
+<Column name="LAB_STAFF_ls_id" id="CA7E7BE2-5CB9-0268-DEA9-B9CE7D725AC8">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:53:55 UTC</createdTime>
+<generatorID>15C71A7F-43C5-1328-7FC1-3D866C8B630A</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9E080F7-7335-E538-BA89-247A48F05E25" referredColumn="157737D1-67E1-C9D6-106D-74A2432F70DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E31553E-0A35-25DA-8722-528FDB8DF524" name="BLOOD_PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>4042B16D-FBB1-E1BA-CB54-5290E78E7249</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BA2DA59-5131-8936-1807-2931C7FCAEE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF30472D-8943-AC66-054E-8A63F365AA1B" name="BLOOD_BLOOD_MAN_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:53:55 UTC</createdTime>
+<generatorID>AA9B62EA-04E3-F416-49C5-984AE41F5D7C</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC086E0B-65A0-6B1F-8F23-ED8C8D277B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D31084CC-AB18-F3F0-09B5-3FC96EB8433C" name="BLOOD_LAB_STAFF_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:53:55 UTC</createdTime>
+<generatorID>44631C02-4C83-7682-388C-412A2AB5291C</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA7E7BE2-5CB9-0268-DEA9-B9CE7D725AC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

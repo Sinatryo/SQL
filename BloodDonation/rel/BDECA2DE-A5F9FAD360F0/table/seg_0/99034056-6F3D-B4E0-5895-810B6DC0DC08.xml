@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99034056-6F3D-B4E0-5895-810B6DC0DC08" name="ORDER">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>64D84A28-1AAC-AEAD-69F5-C79DECFD1B29</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="or_id" id="FCD17EF7-6669-7A14-F656-82F7067655D0">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>60928E51-3440-9177-A343-E4D419384638</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_or" id="D38EC0F2-ADE4-82FC-810C-9AD99EB9343E">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>DBDFE8DC-1F6F-12F4-654E-BC369826D058</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="or_date" id="9CFB2C03-EFC4-C27C-100E-C37C6C0450D9">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>3DB5B90D-6EA6-382D-DE59-8A70C0E2F0DC</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECIPIENT_r_id" id="D6C0826D-F0E4-B8F5-4FA1-6B15FC286D54">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>E80F2387-0986-E79B-36BE-09F5CC57ED5D</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8D4A38B-FD0A-6688-1587-4F22497CBFB2" referredColumn="A1BDD177-4A05-2AC3-32FA-E706355EF396"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D96EC913-EFC8-51CA-4C6D-EF3CF135EF01" name="ORDER_PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>F16A925C-B93B-D819-F9D3-778EF2F7EC97</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCD17EF7-6669-7A14-F656-82F7067655D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22E93440-7EC3-3875-90A3-0F9B252D0BAB" name="ORDER_RECIPIENT_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>47B3BEAF-D57B-C464-FD63-53E996C2B1E2</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6C0826D-F0E4-B8F5-4FA1-6B15FC286D54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

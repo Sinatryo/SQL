@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75329AB8-E89C-0746-1E72-E2E876C1A43C" name="BLOOD">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:34:27 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="b_id" id="482E1140-0340-06BF-EEC6-A30C16EF3E6F">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:34:38 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b_type" id="B990D9E0-7B52-5A66-7955-C452D1763E08">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:34:58 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="b_status" id="4F97B33D-E68A-9D96-C318-6C183AB7EF9D">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:35:32 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bm_id" id="9633E0B0-B3D3-C488-72A5-784417E9CA0A">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:49:16 UTC</createdTime>
+<generatorID>AA9B62EA-04E3-F416-49C5-984AE41F5D7C</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<referedAttribute>C44170AC-25C1-8D5A-7B31-C8BE38B01023</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ls_id" id="15C71A7F-43C5-1328-7FC1-3D866C8B630A">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:50:13 UTC</createdTime>
+<generatorID>44631C02-4C83-7682-388C-412A2AB5291C</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<referedAttribute>023AA91D-2501-92C6-A9F0-6875118B559F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4042B16D-FBB1-E1BA-CB54-5290E78E7249" name="BLOOD PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:34:56 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>482E1140-0340-06BF-EEC6-A30C16EF3E6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

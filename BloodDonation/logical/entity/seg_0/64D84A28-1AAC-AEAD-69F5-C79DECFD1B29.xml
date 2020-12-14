@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64D84A28-1AAC-AEAD-69F5-C79DECFD1B29" name="ORDER">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:35:51 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="or_id" id="60928E51-3440-9177-A343-E4D419384638">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:35:58 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_or" id="DBDFE8DC-1F6F-12F4-654E-BC369826D058">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:36:15 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="or_date" id="3DB5B90D-6EA6-382D-DE59-8A70C0E2F0DC">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:36:36 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="r_id" id="E80F2387-0986-E79B-36BE-09F5CC57ED5D">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:39:28 UTC</createdTime>
+<generatorID>47B3BEAF-D57B-C464-FD63-53E996C2B1E2</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<referedAttribute>F8E69CD1-F378-CC9A-3DF3-084E7C5081EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F16A925C-B93B-D819-F9D3-778EF2F7EC97" name="ORDER PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:36:14 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60928E51-3440-9177-A343-E4D419384638</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

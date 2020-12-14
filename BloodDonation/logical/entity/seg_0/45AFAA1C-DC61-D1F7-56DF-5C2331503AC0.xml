@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45AFAA1C-DC61-D1F7-56DF-5C2331503AC0" name="RECIPIENT">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 12:32:51 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="r_id" id="F8E69CD1-F378-CC9A-3DF3-084E7C5081EE">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 12:33:06 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rf_name" id="E008E8BA-7855-ED8B-9869-53095F5E682C">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:30:27 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rl_name" id="1CB7E2C3-5DA2-FDF7-6536-276A5EB962CA">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:30:57 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="r_age" id="69C1DC87-FC22-09F8-CA23-95AC7D416073">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:31:15 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="r_gender" id="4AA0C245-9FF3-E37E-8B43-8E9A8B65B902">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:31:51 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="r_phone" id="1B7BA444-E5E3-E215-5942-B8F3DA384FBD">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:32:36 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="r_regdate" id="1A0D2152-F6CC-9F4F-DD8C-D0E7AF152DE0">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:32:49 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rb_type" id="2272FA91-2E80-9247-2ADC-EAE21A935136">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:33:26 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rs_id" id="4DC50A7D-032A-AAF2-FABD-189F537177D9">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:41:49 UTC</createdTime>
+<generatorID>061048A2-7222-4CFE-CB7B-72458AB76E4D</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<referedAttribute>5EFEC153-2561-F621-74AC-3FBA1BF1BBF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="d_id" id="B18E0682-E0C2-9DD0-B281-9441345E0758">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:42:50 UTC</createdTime>
+<generatorID>E359B29D-8955-BE76-7D20-0314DBF3B111</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<referedAttribute>ABA980FF-F982-8CAE-177D-0D3E1712A098</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bm_id" id="04B01B18-3A2F-F456-AC62-2C28C36D046D">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:50:53 UTC</createdTime>
+<generatorID>4E9F6C90-A364-E98E-B986-ECF5AE2174D3</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<referedAttribute>C44170AC-25C1-8D5A-7B31-C8BE38B01023</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B596A7B-4392-40ED-C2E8-1A20D59514B8" name="RECIPIENT PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 13:30:14 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8E69CD1-F378-CC9A-3DF3-084E7C5081EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

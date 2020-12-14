@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="stays_inv2" directorySegmentName="seg_0" id="E359B29D-8955-BE76-7D20-0314DBF3B111">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:42:50 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<sourcePk>5B693BBE-2A9D-35D4-F111-5900074E5155</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>810AF541-7CB4-5FC1-9276-B7AFFF2B74AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>45AFAA1C-DC61-D1F7-56DF-5C2331503AC0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

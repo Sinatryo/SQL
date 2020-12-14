@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E075CE4B-A326-9937-87CD-DF03813F5F78" name="DONOR">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>8D3978D3-EE53-B7C0-7C5B-406DC414672B</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="d_id" id="5DBFA17E-5679-999B-1FA8-98D37DF80FC5">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>BCE48A40-AE48-1F98-C497-7BD0E92F814A</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="df_name" id="281772D3-3F55-0930-7F13-403AD19DC083">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>E886A348-543F-4FC9-A5C1-1691364B57AF</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dl_name" id="ECCE9AC0-3BFA-EBAD-0292-5E1DB753AF26">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>A3ED475A-7DA5-DEB6-71E3-23F349AAEA0E</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="d_age" id="44E33599-FB64-3FE4-07D5-4CDA88DA0B4C">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>073D1CAA-F987-9E4A-296E-778F2E03B66A</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="d_gender" id="095C4145-613A-78AC-724F-310109742D8C">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>80A530DC-EB9F-D81D-C1A5-70EC1137CCC0</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="d_phone" id="C1B2136D-FD94-D14E-8530-7F9A9DB8EB09">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>D245BA1C-19C5-1870-8429-8D3075567955</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="d_regdate" id="4292C940-C098-AB8C-1F84-FF1BA695F6CA">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>853087D4-219C-29F7-0140-7A98911D8BC2</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="db_type" id="A8442F6B-7B72-4E1E-A7D1-3053CCE0BEC8">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>ADBF0A97-6030-F882-0A5C-91FD75804EBA</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISTRICT_d_id" id="F4C61EB1-4A4C-149C-85DB-82E132B9112C">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>E5D9BDFD-DD9D-F48F-07B3-889F93A97869</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B90C12B-F922-D852-B994-E9DE3FD6EF99" referredColumn="EF7DA49C-19E6-7B77-9DCF-90D09FB460AB"/>
+</associations>
+</Column>
+<Column name="REG_STAFF_rs_id" id="0B3C7653-45FE-9407-19F5-4D658C8F09A2">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:53:55 UTC</createdTime>
+<generatorID>3B34B071-D8BB-984A-0734-F57DB89A3C1A</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="244B9650-A4D2-08E2-844B-BC0EEBA04403" referredColumn="69EE7425-DD17-130F-C1BC-39A481D3137A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2DB0B96-FD30-D1C7-11B5-322CBAB49095" name="DONOR_PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>05BEC091-0DF5-FCE5-61BA-8BAB67E8C832</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DBFA17E-5679-999B-1FA8-98D37DF80FC5"/>
+<colUsage columnID="F4C61EB1-4A4C-149C-85DB-82E132B9112C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="051BEED3-A9D4-1EE1-798C-AB9975010073" name="DONOR_DISTRICT_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:13:34 UTC</createdTime>
+<generatorID>401B3633-6472-233E-7F70-027838221874</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4C61EB1-4A4C-149C-85DB-82E132B9112C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EE22498-29A1-1A23-5BE3-877E0336FCC1" name="DONOR_REG_STAFF_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:53:55 UTC</createdTime>
+<generatorID>26490BDA-264E-CA92-7B5E-08A1E120F0D7</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B3C7653-45FE-9407-19F5-4D658C8F09A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

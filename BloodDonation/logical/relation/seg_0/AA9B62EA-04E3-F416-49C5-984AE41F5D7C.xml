@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="processes_bloodv2" directorySegmentName="seg_0" id="AA9B62EA-04E3-F416-49C5-984AE41F5D7C">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:49:16 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<sourcePk>B33485CA-D325-0681-A970-27C7644EBDF3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CC3BC347-BD39-076A-ABD9-368F7495B96F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75329AB8-E89C-0746-1E72-E2E876C1A43C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

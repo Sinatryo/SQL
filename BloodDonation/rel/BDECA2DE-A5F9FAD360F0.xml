@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" mainViewID="9C7FA4D5-94C4-2202-14D8-38B9E592E1E0">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 12:07:30 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

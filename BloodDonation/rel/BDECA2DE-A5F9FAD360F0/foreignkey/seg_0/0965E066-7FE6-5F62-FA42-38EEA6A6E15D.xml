@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0965E066-7FE6-5F62-FA42-38EEA6A6E15D" containerWithKeyObject="BE7D8ED7-A5F3-3CE2-A019-F60965595E0A" localFKIndex="96BBE040-3623-DFF0-B788-689D84F00C4B" name="PAYMENT_ORDER_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>5689108D-98EA-AD66-95E7-C8229EAE9588</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<referredTableLongName>ORDER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99034056-6F3D-B4E0-5895-810B6DC0DC08</referredTableID>
+<keyObject>D96EC913-EFC8-51CA-4C6D-EF3CF135EF01</keyObject>
+<referredKeyID>D96EC913-EFC8-51CA-4C6D-EF3CF135EF01</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>or_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>FCD17EF7-6669-7A14-F656-82F7067655D0</discriminatorColumn>
+<discriminatorValue>15</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

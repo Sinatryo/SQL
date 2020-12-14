@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="668391E4-A8D8-9A4E-8792-29535D494BD5" name="CASH">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>6C252E68-E050-3C47-D524-4C8472CB8AD8</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pay_id" id="5C4A2D45-477F-E262-10B3-3566DD085DF4">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>8CEB5511-47EB-47D1-88EB-3B0C1193C229</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B924B7F1-4CF8-0CBA-8AB5-2BDCCF3D4CC9" referredColumn="2949131F-1CA5-421F-9BDC-237A2174D822"/>
+</associations>
+</Column>
+<Column name="ca_id" id="4A0B01AD-8ED0-C31A-8C4F-7CB769B04CA5">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>25ED72D8-5D47-3D15-93AD-88F1B9E1CF49</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_ca" id="0D9336C2-0DD1-C0B0-082F-EAA0775716D8">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>1A1ABA6E-EAAB-3C6A-5A17-2F09DB1A678A</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBDC714F-F251-F67A-82F9-7D0325240865" name="CASH_PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>898C7B17-57ED-0E1F-BAB5-C9F4780E7E02</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C4A2D45-477F-E262-10B3-3566DD085DF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25AC0988-64FA-15F2-35F9-6EEE2ADF8B0E" name="CASH_PKv1">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>B352D9FE-BAAE-A6D1-7D27-9C1375518B1E</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A0B01AD-8ED0-C31A-8C4F-7CB769B04CA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32F02033-7AB7-A7C8-9CC5-EA58F9D73F18" name="CASH_PAYMENT_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>88F05B74-361B-C8CF-AFCD-C5B96A78F839</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C4A2D45-477F-E262-10B3-3566DD085DF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

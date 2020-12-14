@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C849FC27-4040-51E9-799B-CDDA0FD7D6D2" containerWithKeyObject="F3D3F371-458B-00E0-33E6-2546DC951713" localFKIndex="85B8552F-6F73-27C8-64E3-6AF9D161569B" name="CREDIT_PAYMENT_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:52:38 UTC</createdTime>
+<generatorID>09781D75-36A5-334E-B8E6-8A6FA3B934B9</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<referredTableLongName>PAYMENT</referredTableLongName>
+<arc>ED94893B-B2E9-E7E2-9BB1-49C27D2A116D</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE7D8ED7-A5F3-3CE2-A019-F60965595E0A</referredTableID>
+<keyObject>42101F95-17D4-B4BD-837D-5212999B690C</keyObject>
+<referredKeyID>42101F95-17D4-B4BD-837D-5212999B690C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pay_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>CREDIT</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

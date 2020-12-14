@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC7C1B1E-BD6B-F164-37BC-F535E85BC04B" containerWithKeyObject="C74B8123-3027-1172-D9D7-E21837C5E156" localFKIndex="2554A457-51F1-4DC2-57B4-3456059D8F6C" name="RECIPIENT_DISTRICT_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:53:55 UTC</createdTime>
+<generatorID>E359B29D-8955-BE76-7D20-0314DBF3B111</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<referredTableLongName>DISTRICT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CAF3ECD5-D7F4-EE95-9927-E8774155099A</referredTableID>
+<keyObject>493A5C84-A551-CE5C-81AE-7750E090CA95</keyObject>
+<referredKeyID>493A5C84-A551-CE5C-81AE-7750E090CA95</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>d_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

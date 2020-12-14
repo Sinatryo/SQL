@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C66C8B3-F522-7310-81C3-A93105F8BC77" containerWithKeyObject="0B3C8477-C3D7-14B9-5D6D-9D61E60AF4DE" localFKIndex="147F8F34-D69F-5F89-0958-09EC59D79377" name="HOSPITAL_BLOOD_MAN_FK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-01 14:53:55 UTC</createdTime>
+<generatorID>FD266156-FE3D-D6EB-38BE-6DB270F8310B</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<referredTableLongName>MANAGER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>321281F6-772B-4145-6BFF-EB55112D8357</referredTableID>
+<keyObject>7D80E6A7-441F-8265-6D1F-ECE87094F7BC</keyObject>
+<referredKeyID>7D80E6A7-441F-8265-6D1F-ECE87094F7BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>bm_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

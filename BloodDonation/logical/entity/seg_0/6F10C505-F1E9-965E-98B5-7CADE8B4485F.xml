@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F10C505-F1E9-965E-98B5-7CADE8B4485F" name="PAYMENT">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:29:26 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>8CEB5511-47EB-47D1-88EB-3B0C1193C229</discriminatorAttributeID>
+<discriminatorColumnName>payment</discriminatorColumnName>
+<discriminatorValue>15</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pay_id" id="8CEB5511-47EB-47D1-88EB-3B0C1193C229">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:34:35 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="or_id" id="47CF1C80-ECA6-8777-DB3A-17566A9E3F39">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:51:38 UTC</createdTime>
+<generatorID>5689108D-98EA-AD66-95E7-C8229EAE9588</generatorID>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="true"/>
+</engineerTo>
+<referedAttribute>60928E51-3440-9177-A343-E4D419384638</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="898C7B17-57ED-0E1F-BAB5-C9F4780E7E02" name="PAYMENT PK">
+<createdBy>Sinatryo</createdBy>
+<createdTime>2020-10-02 12:34:55 UTC</createdTime>
+<ownerDesignName>BLOODSEEKER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BDECA2DE-BD03-FA5E-F792-A5F9FAD360F0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CEB5511-47EB-47D1-88EB-3B0C1193C229</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
